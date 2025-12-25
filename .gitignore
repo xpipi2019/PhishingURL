@@ -1,0 +1,129 @@
+# ========== Python ==========
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
+
+# ========== 虚拟环境 ==========
+env/
+venv/
+ENV/
+env.bak/
+venv.bak/
+.venv/
+
+# ========== 后端模型和图片文件 ==========
+# 注意：这些文件通常很大，不应提交到版本控制
+backend/models/
+backend/images/
+*.joblib
+*.pkl
+*.h5
+*.hdf5
+*.pth
+*.pt
+*.ckpt
+
+# ========== 后端数据文件 ==========
+# 原始数据文件通常很大，不应提交
+#backend/data/raw/
+backend/data/processed/
+#*.csv
+*.json
+*.parquet
+*.feather
+
+# ========== 后端日志文件 ==========
+backend/logs/
+*.log
+*.log.*
+
+# ========== 后端数据库文件 ==========
+backend/db/
+*.db
+*.sqlite
+*.sqlite3
+
+# ========== IDE和编辑器 ==========
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store
+*.sublime-project
+*.sublime-workspace
+
+# ========== 环境变量和配置 ==========
+.env
+.env.local
+.env.*.local
+*.env
+
+# ========== 前端相关 ==========
+# Node.js
+frontend/node_modules/
+frontend/dist/
+frontend/build/
+frontend/.vite/
+frontend/.cache/
+
+# 前端日志
+frontend/npm-debug.log*
+frontend/yarn-debug.log*
+frontend/yarn-error.log*
+frontend/pnpm-debug.log*
+frontend/lerna-debug.log*
+
+# 前端环境变量
+frontend/.env
+frontend/.env.local
+frontend/.env.*.local
+
+# ========== 测试和覆盖率 ==========
+.pytest_cache/
+.coverage
+htmlcov/
+.tox/
+.hypothesis/
+*.cover
+.cache
+nosetests.xml
+coverage.xml
+*.mo
+*.pot
+
+# ========== 文档构建 ==========
+docs/_build/
+docs/.doctrees/
+
+# ========== 临时文件 ==========
+*.tmp
+*.temp
+*.bak
+*.swp
+*~
+
+# ========== 系统文件 ==========
+Thumbs.db
+.DS_Store
+.AppleDouble
+.LSOverride
+
