@@ -46,7 +46,6 @@ backend/images/
 #backend/data/raw/
 backend/data/processed/
 #*.csv
-*.json
 *.parquet
 *.feather
 
